@@ -29,6 +29,11 @@ GITHUBTARBALL
     go (1.1.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-gpgtools
+  specs:
+    gpgtools (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-homebrew
   specs:
     homebrew (1.6.1)
@@ -79,6 +84,11 @@ GITHUBTARBALL
     sudo (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-tunnelblick
+  specs:
+    tunnelblick (1.0.5)
+
+GITHUBTARBALL
   remote: boxen/puppet-xquartz
   specs:
     xquartz (1.1.1)
@@ -105,6 +115,7 @@ DEPENDENCIES
   gcc (= 2.0.100)
   git (= 2.2.2)
   go (= 1.1.0)
+  gpgtools (= 1.0.0)
   homebrew (= 1.6.1)
   hub (= 1.3.0)
   inifile (= 1.0.3)
@@ -118,5 +129,6 @@ DEPENDENCIES
   ruby (= 7.2.4)
   stdlib (= 4.1.0)
   sudo (= 1.0.0)
+  tunnelblick (= 1.0.5)
   xquartz (= 1.1.1)
 
